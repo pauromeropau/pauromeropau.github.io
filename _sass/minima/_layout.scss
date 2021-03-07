@@ -350,6 +350,11 @@ font-weight: 400;
   font-weight: 700;
   white-space: nowrap;
   background-color: $brand-color;
+
+  &:hover{
+    color: $brand-color;
+    background-color:white;
+  }
 }
 
 .media-container {
@@ -376,6 +381,9 @@ font-weight: 400;
   max-width: 90%;
   box-shadow: 10px -10px $brand-color;
   position: relative;
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 .media-2 img {
@@ -389,7 +397,10 @@ font-weight: 400;
   box-shadow: 10px -10px $brand-color;
   position: relative;
   margin-top: 40px;
-  transition: all 0.1s;
+  &:hover{
+    cursor: pointer;
+  }
+  
 }
 
 .media-3 img {
