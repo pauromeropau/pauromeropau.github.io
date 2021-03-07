@@ -15,7 +15,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
+  color: $text-white;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -112,7 +112,7 @@ a {
 
   &:hover {
     color: $brand-color;
-    text-decoration: underline;
+    // text-decoration: underline;
   }
 
   .social-media-list &:hover {
@@ -252,3 +252,15 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+::-moz-selection { /* Code for Firefox */
+  background: $brand-color;
+}
+
+::selection {
+  background: $brand-color;
+}
+
+
+
+

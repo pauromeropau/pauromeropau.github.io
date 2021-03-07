@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
+  // border-top: 5px solid $grey-color-dark;
   // border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   background-color: #364A63;
@@ -23,6 +23,14 @@
   &:visited {
     color: $text-white
   }
+  &:hover{
+    color: $brand-color;
+    text-decoration: none;
+  }
+}
+
+.logo{
+  max-width: 100px;
 }
 
 .site-nav {
@@ -44,6 +52,10 @@
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
+    }
+    &:hover{
+      color: $brand-color;
+      text-decoration: none;
     }
   }
 
@@ -253,4 +265,146 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+.introduction {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -.5px;
+}
+.subtitle{
+  font-size: 36px;
+    line-height: 52px;
+    letter-spacing: -1.6px;
+}
+
+.online-dot{
+  font-size: 40px;
+  line-height: 0px;
+  color: $brand-color;
+}
+.about-box {
+  position: relative;
+  padding: 24px;
+  box-shadow: 10px -10px $brand-color;
+  margin-top: 72px;
+  margin-right: 48px;
+  background-color: white;;
+}
+
+.about-box-text{
+color: black;
+font-weight: 400;
+    letter-spacing: 0px;    
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.quote{
+  text-align: right;
+  margin-top: 80px;
+  margin-left: 56px;
+  margin-right: 48px
+}
+
+.quote-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -.1px;
+}
+
+.quote-name{
+  font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+.introduction-left{
+  max-width: 50%
+}
+
+.introduction-right{
+  margin-top: 120px;
+  max-width: 50%
+}
+
+.centered{
+  text-align: center;
+}
+
+.btn{
+  display: inline-block;
+  padding: 16px 20px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Karla",sans-serif;
+  font-weight: 700;
+  white-space: nowrap;
+  background-color: $brand-color;
+}
+
+.media-container {
+  position: relative;
+    padding-top: 24px;
+    margin-top: 72px;
+}
+
+.media-1 {
+  margin-bottom: -12px;
+  margin-left: auto;
+  max-width: 76%;
+  box-shadow: 10px -10px $brand-color;
+  position: relative;
+  margin-top: 64px;
+}
+
+.media-1 img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.media-2 {
+  max-width: 90%;
+  box-shadow: 10px -10px $brand-color;
+  position: relative;
+}
+
+.media-2 img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.media-3 {
+  margin-left: auto;
+  max-width: 90%;
+  box-shadow: 10px -10px $brand-color;
+  position: relative;
+  margin-top: 40px;
+  transition: all 0.1s;
+}
+
+.media-3 img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.media-4 {
+  margin-top: -14px;
+  max-width: 76%;
+}
+
+.media-4 img {
+  max-width: 100%;
+  vertical-align: bottom;
+  box-shadow: 10px -10px $brand-color;
+  transition: all 0.1s;
 }
