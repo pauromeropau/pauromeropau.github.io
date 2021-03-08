@@ -328,13 +328,37 @@ font-weight: 400;
     letter-spacing: 0px;
 }
 
-.introduction-left{
-  max-width: 50%
+@include media-query($on-laptop) {
+  .introduction-left{
+    max-width: 50%
+  }
+  
+  .introduction-right{
+    margin-top: 120px;
+    max-width: 50%
+  }
 }
 
-.introduction-right{
-  margin-top: 120px;
-  max-width: 50%
+// @include media-query($on-palm) {
+//   .introduction-left{
+//     max-width: 50%
+//   }
+  
+//   .introduction-right{
+//     margin-top: 120px;
+//     max-width: 50%
+//   }
+// }
+
+@include media-query($on-mobile) {
+  .introduction-left{
+    max-width: 100%
+  }
+  
+  .introduction-right{
+    margin-top: 20px;
+    max-width: 100%
+  }
 }
 
 .centered{
