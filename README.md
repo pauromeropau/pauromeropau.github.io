@@ -21,12 +21,6 @@ A mockup has been given as style guide.
 ### Responsive/Mobile First
 This landing page is also Responsive. 
 
-### Colors 
-It's been used CARTO brand palette: 
-- Location Red #EB1510 
-- Navy Blue #162745 
-- Prediction Blue #1785FB 
-
 ### Animation
 Some animations hover has been config.
 

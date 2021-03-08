@@ -26,7 +26,18 @@ layout: default
       {%- endfor -%}
     </ul> -->
 
-	<!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+	<div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+		<iframe
+			class="embed-responsive-item"
+			width="854"
+			height="480"
+			src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+			frameborder="0"
+			allow="autoplay; encrypted-media"
+			allowfullscreen
+		></iframe>
+	</div>
+
 	<div class="introduction">
 		<div class="introduction-left">
 			<h1 class="title">
@@ -56,14 +67,21 @@ layout: default
 		</div>
 		<div class="introduction-right">
 			<div class="centered">
-				<a href="/about" class="btn"> <span>Sign up now</span> </a>
+				<a href="#about" class="btn"> <span>Sign up now</span> </a>
 
 				<div class="media-container">
 					<div class="media-1">
 						<img src="assets/img/image-1.png" alt="Laptop" />
 					</div>
-					<div class="media-2" data-video="https://www.youtube-nocookie.com/embed/g8JlfAe3Y14?rel=0"><img src="assets/img/image-2.png" alt="Video" /></div>
-					<div class="media-3" data-video="https://www.youtube-nocookie.com/embed/g8JlfAe3Y14?rel=0"><img src="assets/img/image-3.png" alt="Video" /></div>
+
+					<div class="media-2" href="#headerPopup" id="headerVideoLink1" target="_blank">
+						<img src="assets/img/image-2.png" alt="Video" />
+					</div>
+
+					<div class="media-3" href="#headerPopup" id="headerVideoLink2" target="_blank">
+						<img src="assets/img/image-3.png" alt="Video" />
+					</div>
+
 					<div class="media-4"><img src="assets/img/image-4.png" alt="Meet" /></div>
 				</div>
 			</div>

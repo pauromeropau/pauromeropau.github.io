@@ -407,6 +407,7 @@ font-weight: 400;
   position: relative;
   &:hover{
     cursor: pointer;
+    box-shadow: 10px -10px $text-color;
   }
 }
 
@@ -423,6 +424,7 @@ font-weight: 400;
   margin-top: 40px;
   &:hover{
     cursor: pointer;
+    box-shadow: 10px -10px $text-color;
   }
   
 }
@@ -442,4 +444,14 @@ font-weight: 400;
   vertical-align: bottom;
   box-shadow: 10px -10px $brand-color;
   transition: all 0.1s;
+}
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
 }
