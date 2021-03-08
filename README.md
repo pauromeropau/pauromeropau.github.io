@@ -1,6 +1,6 @@
 # CARTO Annual Conference 
 
-👉🏻 [Demo here](pauromeropau.github.io )
+👉🏻  [Demo here](pauromeropau.github.io )
 
 ## About
 ### CARTO Annual Conference
@@ -67,7 +67,7 @@ Visit pauromeropau.github.io
 ## Author
 👩🏼‍💻 Paula Romero <br>
 👤 [LinkedIn](https://www.linkedin.com/in/pauromeropau/) <br>
-📩 pauromeropau@gmail.com <br>
+📩  pauromeropau@gmail.com <br>
 📍 Madrid, Spain <br>
 
 

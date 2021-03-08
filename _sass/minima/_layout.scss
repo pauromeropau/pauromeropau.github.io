@@ -113,8 +113,6 @@
   }
 }
 
-
-
 /**
  * Site footer
  */
@@ -183,8 +181,6 @@
   }
 }
 
-
-
 /**
  * Page content
  */
@@ -219,7 +215,6 @@
   display: block;
   @include relative-font-size(1.5);
 }
-
 
 
 /**
@@ -338,17 +333,6 @@ font-weight: 400;
     max-width: 50%
   }
 }
-
-// @include media-query($on-palm) {
-//   .introduction-left{
-//     max-width: 50%
-//   }
-  
-//   .introduction-right{
-//     margin-top: 120px;
-//     max-width: 50%
-//   }
-// }
 
 @include media-query($on-mobile) {
   .introduction-left{
