@@ -1,6 +1,6 @@
 # CARTO Annual Conference 
 
-👉🏻  [Demo here](pauromeropau.github.io )
+👉🏻   [Demo](https://pauromeropau.github.io)
 
 ## About
 ### CARTO Annual Conference
@@ -62,7 +62,7 @@ you can use them wherever you want (e.g such as {{ page.title }}). That's what m
 You can also set more variables on the *_config.yml* file (e.g twitter username) and use them everywhere. 
 
 ## Live Demo
-Visit pauromeropau.github.io 
+[Demo](https://pauromeropau.github.io)
 
 ## Author
 👩🏼‍💻 Paula Romero <br>
