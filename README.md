@@ -22,15 +22,17 @@ A mockup has been given as style guide.
 This landing page is also Responsive. 
 
 ### Animation
-Some animations hover has been config.
+Some animations hover have been config.
 
 ## Development Environment
-- To set up your environment to develop  run 
+- To set up your environment to develop, run 
+
 ```
 bundle install
 ```
 
-- To test run 
+- To test, run 
+
 ```
 bundle exec jekyll serve --incremental --livereload
 ```
@@ -40,7 +42,8 @@ http://localhost:4000
 ```
 
 ## Build
-If you want to build (./_site) run 
+If you want to build (./_site), run 
+
 ```
 jekyll build --watch
 ```
